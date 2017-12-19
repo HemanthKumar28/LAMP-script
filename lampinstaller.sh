@@ -18,6 +18,8 @@ echo "##########################################################################
 echo "Please be Patient: Installation will start now....... It may take some time :)"
 echo "###################################################################################"
 
+apt-get update
+apt-get upgrade
 
 #PHP7 PPA
 sudo apt-get install python-software-properties
